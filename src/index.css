@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  scroll-behavior: smooth;
+}
+
+/* Custom gradient backgrounds */
+.bg-ribbon-gradient {
+  background: linear-gradient(135deg, #f0f9ff 0%, #fff 50%, #fce7f3 100%);
+}
